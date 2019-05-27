@@ -31,7 +31,15 @@ body {
 */
 
 /* same as above */
+/*
 .bigItem {
   grid-row: 2 / 4;
   grid-column: 2 / 4;
+}
+*/
+
+/* also same as above */
+
+.bigItem {
+  grid-area: 2 / 2 / 4 / 4;
 }
